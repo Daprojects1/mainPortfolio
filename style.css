@@ -1,0 +1,109 @@
+*{
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Dongle, sans-serif,Arial, Helvetica, sans-serif;
+}
+.imgDiv > img {
+    width:300px;
+    height: 300px;
+
+}
+.logoimg{
+    width: 150px;
+    height: 150px;
+}
+.logoimg  > img{
+ width: 150px;
+ height: 150px;
+ padding: 0;
+ margin: 0;
+}
+.rightpad{
+    padding-right: 100px;
+}
+.imgDiv{
+    padding-top: 75px;
+    border-bottom: 2px grey solid;
+    width:75vw;
+
+}
+
+h2 {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-size: 30px;
+}
+
+.insidediv{
+  border-bottom: 2px grey solid;
+  width: 75vw;
+}
+
+h3 {
+    padding-top: 3rem;
+    font-size: 23px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: rgb(82, 82, 82);
+}
+nav{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+@media screen and (min-width:760px){
+    nav{
+        flex-direction: row;
+
+    }
+}
+li{
+    list-style: none;
+    font-size: 30px;
+    padding: 0 20px 25px 20px;
+}
+
+.current {
+    color: hotpink;
+}
+@media screen and (min-width:580px){
+    li{
+        padding:5px 65px 5px 65px;
+    }
+}
+ul{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    border-bottom:2px solid grey;
+}
+
+.mainSec{
+    min-height: 70vh;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+}
+
+p{
+   padding-left: 40px;
+}
