@@ -27,19 +27,19 @@ body{
  padding: 0;
  margin: 0;
 }
-.rightpad{
-    padding-right: 100px;
-}
+
 .imgDiv{
     padding-top: 75px;
-    border-bottom: 2px grey solid;
-    width:75vw;
-
+    position: relative;
 }
-
+.imgDiv > h1{
+    position: absolute;
+    bottom: 90px;
+    right: 135px;
+}
 h2 {
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
+   
+    padding-bottom: 0.5rem; 
     font-size: 30px;
 }
 
@@ -49,7 +49,7 @@ h2 {
 }
 
 h3 {
-    padding-top: 3rem;
+    padding-top: 0.8rem;
     font-size: 23px;
 }
 a{
@@ -71,7 +71,9 @@ nav{
 @media screen and (min-width:760px){
     nav{
         flex-direction: row;
-
+    }
+    .rightpad{
+        padding-right: 100px;
     }
 }
 li{
@@ -107,3 +109,4 @@ footer{
 p{
    padding-left: 40px;
 }
+
